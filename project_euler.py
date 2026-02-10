@@ -104,20 +104,43 @@ print(max(palindromes))
 m = 20
 
 primes = np.array([1])
-# primes = np.array([1, 2, 5, 7])
+not_primes = np.array([1])
 
-# prod_of_primes = (primes[:, None] * primes[None, :]).flatten()
-
-for i in range(3, m + 1, 2):
-	if isprime(i): 
+for i in range(3, m+1):
+	if isprime(i):
 		primes = np.append(primes, i)
+	else:
+		not_primes = np.append(not_primes, i)
 
 
-def find_factors(number):
-	factors = np.array([1])
 
-	for j in range(2, int(number/2) + 1):
-		if j/k % 1 == 0:
-			factors = factors.append([j])
-		return(favtors)
+
+
+
+
+# # primes = np.array([1, 2, 5, 7])
+
+# # prod_of_primes = (primes[:, None] * primes[None, :]).flatten()
+
+# for i in range(3, m + 1, 2):
+# 	if isprime(i): 
+# 		primes = np.append(primes, i)
+
+
+# def find_factors(number):
+# 	factors = np.array([1])
+
+# 	for j in range(2, int(number/2) + 1):
+# 		if j/k % 1 == 0:
+# 			factors = factors.append([j])
+# 		return(favtors)
+
+
+
+
+
+
+
+
+
 
