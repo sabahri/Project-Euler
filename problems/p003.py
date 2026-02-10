@@ -8,7 +8,6 @@ from isprime import is_prime
 m = 600851475143
 n = int(np.sqrt(m) + 1)
 
-#prime_factors = np.array([1])
 prime_factors = []
 
 # using isprime from sympy is kinda cheating,
